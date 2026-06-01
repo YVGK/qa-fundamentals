@@ -1,7 +1,7 @@
 function evenNumbers(arr: number[]): number[] {
-  let results: number[] = [];
+  const results: number[] = [];
   for (let n of arr) {
-    if (n % 2 == 0) results.push(n);
+    if (n % 2 === 0) results.push(n);
   }
   return results;
 }

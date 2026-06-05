@@ -20,7 +20,8 @@ function findMax(arr: number[]): number {
     }
   } else {
     // returns infinty beacuse throw error is stopping the program
-    maxNumber = Infinity;
+    maxNumber = -Infinity;
+    console.log("empty array");
   }
   return maxNumber;
 }
